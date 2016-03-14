@@ -30,7 +30,7 @@ public String getName() {
 		return items;
 	}
 	public void addItems(String item) {
-		this.items.add("You see "+item);
+		this.items.add(item);
 	}
 	public void setMessage(String message) {
 		this.message = message;
